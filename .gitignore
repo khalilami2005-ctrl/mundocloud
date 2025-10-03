@@ -1,0 +1,38 @@
+# PHP artifacts
+vendor/
+composer.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Uploaded files - don't store large binaries in git
+uploads/
+uploads/*
+uploads/pending/
+uploads/rifiutate/
+
+# Generated thumbnails and video cache
+thumbnails/
+video/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sensitive config
+.env
+
+# Backup files
+*~
+*.bak
+*.tmp
